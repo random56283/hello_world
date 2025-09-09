@@ -21,3 +21,4 @@ x <- ggplot(data = data_heatwaves,
 
 x
 
+ggsave("helloworld_heat.png", plot = x)
