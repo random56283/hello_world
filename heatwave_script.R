@@ -16,7 +16,8 @@ ggplot(data = data_heatwaves,
 
 x <- ggplot(data = data_heatwaves,
        mapping = aes(x = year, y = mhw_int_cumulative,
-                     group = paste(fishery, eu_rnpa))) + geom_line()
+                     group = paste(fishery, eu_rnpa))) + geom_line() +
+  labs(title = "Heat waves per year")
 
 x
 
